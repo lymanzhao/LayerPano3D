@@ -132,7 +132,7 @@ pip install dist/instaOmniDepth-0.1.0-cp39-cp39-linux_x86_64.whl # if failed, pl
     - Download SD1.5 models from [huggingface](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5) and put them into ``checkpoints/pasd/stable-diffusion-v1-5``. 
     - Download PASD pre-trained models [pasd](https://public-vigen-video.oss-cn-shanghai.aliyuncs.com/robin/models/PASD/pasd.zip) and put them into ``checkpoints/pasd/checkpoint-100000``.
   
-  - Download FLUX.1-dev\FLUX.1-Fill-dev models.``huggingface-cli download black-forest-labs/FLUX.1-Kontext-dev``,``huggingface-cli download black-forest-labs/FLUX.1-Fill-dev``
+  - Download FLUX.1-dev\FLUX.1-Fill-dev models.``huggingface-cli download black-forest-labs/FLUX.1-dev``,``huggingface-cli download black-forest-labs/FLUX.1-Fill-dev``
   - Download oneformer_coco_swin_large, https://huggingface.co/shi-labs/oneformer_coco_swin_large,models path in gen_autolayering.py . ``huggingface-cli download shi-labs/oneformer_coco_swin_large``
 
 
