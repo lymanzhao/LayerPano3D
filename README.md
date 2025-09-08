@@ -135,19 +135,33 @@ pip install dist/instaOmniDepth-0.1.0-cp39-cp39-linux_x86_64.whl # if failed, pl
   - Download FLUX.1-dev\FLUX.1-Fill-dev models.``huggingface-cli download black-forest-labs/FLUX.1-dev``,``huggingface-cli download black-forest-labs/FLUX.1-Fill-dev``，``huggingface-cli download llava-hf/llava-1.5-7b-hf`` or ``modelscope download --model black-forest-labs/FLUX.1-dev --local_dir checkpoints/FLUX.1-dev``，``modelscope download --model black-forest-labs/FLUX.1-Fill-dev --local_dir checkpoints/FLUX.1-Fill-dev`` ，``modelscope download --model llava-hf/llava-1.5-7b-hf  --local_dir checkpoints/llava-1.5-7b-hf``（modify in：gen_refpano.py\gen_layerdata.py）
   - Download oneformer_coco_swin_large, https://huggingface.co/shi-labs/oneformer_coco_swin_large,models path in gen_autolayering.py . ``huggingface-cli download shi-labs/oneformer_coco_swin_large``
   - Download mscoco_finetuned_CoCa-ViT,``huggingface-cli download laion/mscoco_finetuned_CoCa-ViT-L-14-laion2B-s13B-b90k``,modify:pasd\run_layers_pasd.py
+
 ``
+
 - checkpoints/
--- ControlNetLama.pth                
+  
+-- ControlNetLama.pth 
+
 -- llava-1.5-7b-hf
--- FLUX.1-Fill-dev                   
+
+-- FLUX.1-Fill-dev        
+
 -- oneformer_coco_swin_large
--- FLUX.1-dev                        
+
+-- FLUX.1-dev               
+
 -- pano_lora_720_1440_v1.safetensors
--- Infusion                          
+
+-- Infusion               
+
 -- pasd
--- depth_anything_v2_vitl.pth        
+
+-- depth_anything_v2_vitl.pth   
+
 -- sam_vit_h_4b8939.pth
+
 -- flux_train_replicate.safetensors
+
 ``
 
 ### 🌌 Inference:
